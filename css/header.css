@@ -1,0 +1,28 @@
+.w #logo-2021{
+    position: relative;
+}
+#logo-2021{
+    width: 300px;
+    margin: 10px 0 15px 0;
+}
+#logo-2021 a{
+    display: block;
+    background: url("../img/JDlogo.jpeg") no-repeat;
+    background-size: contain;
+    width: 134px;
+    height: 70px;
+    text-indent: -1000px;
+    /* overflow: hidden; */
+}
+
+#extra{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+
+#channel{
+    line-height: 70px;
+}

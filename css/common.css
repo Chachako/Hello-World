@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.w{
+	padding:0 200px;
+}
+
+#shortcut-2021 .w{
+	background-color:#D3D3D3;
+	height:35px;
+}
+.w li{
+	list-style:none;
+	display:inline-block;
+	line-height:35px;
+}
+.w a{
+	text-decoration:none;
+	font:13px/35px Arial;
+	color:#808080; 
+}
+
+.iconfont{
+	margin-right:5px;
+}
+
+#fl{
+	float:left;
+}
+
+/* 右边元素向右浮动 */
+#fr{
+	float:right;
+}
+
+.spacer{
+	width: 1px;
+	height: 10px;
+	background: #0e0d0d0c;
+	margin: 11px 5px 0;
+}
+
+.style_red a{
+	color: #ff3300 !important;
+}
+
+.w li a:hover{
+	color: #ff3300;
+}
+
+.iconfont{
+	padding-top: 5px;
+}
