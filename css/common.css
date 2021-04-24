@@ -3,21 +3,34 @@
 	padding:0;
 }
 
-.w{
-	padding:0 200px;
+body{
+	color: #666;
+	font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
 }
 
-#shortcut-2021 .w{
+a{
+	text-decoration:none;
+}
+
+.w{
+	width: 1200px;
+	min-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#shortcut-2021{
 	background-color:#D3D3D3;
 	height:35px;
+	width: 100%;
 }
+
 .w li{
 	list-style:none;
 	display:inline-block;
 	line-height:35px;
 }
-.w a{
-	text-decoration:none;
+.w a{	
 	font:13px/35px Arial;
 	color:#808080; 
 }
@@ -33,6 +46,9 @@
 /* 右边元素向右浮动 */
 #fr{
 	float:right;
+}
+#fr ul li{
+	float: left;
 }
 
 .spacer{
@@ -51,5 +67,5 @@
 }
 
 .iconfont{
-	padding-top: 5px;
+	margin-top: 5px;
 }
